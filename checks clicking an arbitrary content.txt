@@ -1,0 +1,12 @@
+  import org.openqa.selenium.WebDriver;
+  import org.openqa.selenium.WebDriverWait;
+  import.ExpectedConditions;
+     driver.get(https://www.bongobd.com/bn/);
+        WebDriverWait wait = new WebDriverWait(driver, 10);
+        wait.until(ExpectedConditions.presenceOfElementLocated(locator)); 
+        wait.until(ExpectedConditions.elementToBeClickable(ID));
+        searchID.click();
+     public void teardown() {
+  driver.quit();
+     }
+  }
